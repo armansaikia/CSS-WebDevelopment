@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>decendent</title>
+    <style>
+        /* In CSS, the descendant selector allows you to select elements based on their relationship to another element. 
+        It targets elements that are descendants of a specified parent element, regardless of the level of nesting.
+
+        The descendant selector uses a space (' ') to separate the parent element and the descendant element.*/
+
+        div p b {
+            color: skyblue;
+        }
+
+        section div p b{
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Java is <b>Programming</b> Language</p>
+    </div>
+
+    <section>
+        <div>
+            <p>Python is <b>Programming</b> Language</p>
+        </div>
+    </section>
+
+    <div>div One</div>
+
+    <ins>Hello Guys we done with grouipng selector</ins>
+</body>
+
+</html>

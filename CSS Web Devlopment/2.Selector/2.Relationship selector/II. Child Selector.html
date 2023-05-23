@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+
+        /*In CSS, the child selector allows you to select and apply styles to elements that are direct children of a specified parent element. 
+        It targets elements that are immediate children, rather than targeting all descendants.*/
+        
+        ol > li{
+            background-color: red;
+        }
+
+        ul > li{
+            background-color: skyblue;
+        }
+
+        .d1 > .p1{
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ol>
+
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ul>
+
+    <div class="d1">
+        <p class="j1">Java</p>
+        <p class="p1">Python</p>
+        <p class="j2">JavaScript</p>
+    </div>
+</body>
+</html>
