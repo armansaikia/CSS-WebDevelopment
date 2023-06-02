@@ -1,0 +1,36 @@
+section,
+div {
+    /* border: 2px solid blue; */
+    margin: 5px;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: 250px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.item1 {
+    min-height: 50vh;
+}
+
+div {
+    min-height: 45vh;
+}
+
+img {
+    width: 220px;
+}
+
+/* header{
+    background-color: slategray;
+    min-height: 10vh;
+} */
+
+nav ul li {
+    font-size: xx-large;
+    display: grid;
+    display: inline;
+    border: 2px solid blue;
+    row-gap: 20px;
+
+
+}

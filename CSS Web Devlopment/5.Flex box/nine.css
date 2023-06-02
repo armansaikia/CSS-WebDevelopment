@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+}
+
+nav {
+    background-color: whitesmoke;
+}
+
+a {
+    text-decoration: none
+}
+
+ul {
+    font-size: x-large;
+    display: flex;
+
+}
+
+li {
+    /* border: 2px solid blue; */
+    margin: 5px;
+    padding: 10px;
+}
+
+li {
+    flex: 1;
+}
+
+section,
+div {
+    /* border: 2px solid skyblue; */
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+
+}
+
+/* section{
+    border: 2px solid blue;
+} */
+
+div {
+    flex: 1;
+    /* padding: 120px; */
+    /* border: 2px solid skyblue; */
+    height: 220px;
+}
+
+.display-pic {
+    width: 160px;
+}
+
+.internal-container {
+    display: inline;
+    font-size: medium;
+    position: relative;
+    top: -40px;
+
+}
+
+.header-position {
+    position: sticky;
+    top: 2px;
+}       

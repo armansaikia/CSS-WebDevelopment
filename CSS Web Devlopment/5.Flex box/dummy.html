@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex-item {
+            flex-basis: 33.33%; 
+            box-sizing: border-box;
+            padding: 10px;
+            border: 1px solid black;
+            height: 280px;
+        }
+
+        @media (max-width: 768px) {
+            .flex-item {
+                flex-basis: 50%;
+                /* Adjust as needed for smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .flex-item {
+                flex-basis: 100%;
+                /* Adjust as needed for even smaller screens */
+            }
+        }
+
+        .flex-item:nth-last-child(-n+3) {
+            flex-basis: 100%;
+            /* Set full width for the last three items */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+        <div class="flex-item">Item 4</div>
+        <div class="flex-item">Item 5</div>
+        <div class="flex-item">Item 6</div>
+    </div>
+</body>
+
+</html>
